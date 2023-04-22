@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+body{
+  display: flexbox;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(135deg, #243558, #9b59b6); */
+  background-image: url("./luxury.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  /* filter: blur(1px); */
+  
+}
+
+.Container{
+  max-width: 700ox;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 60px;
+  background: #fafbfc1f;
+  padding: 25px 30px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border-bottom: 2px solid hsl(0, 0%, 3%);
+  /* background: transparent; */
+}
+.box{
+  margin-left: 10%;
+  
+}
+.detail-box{
+  margin-left: 20%;
+  
+}
+.Container1{
+  max-width: 2500px;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* margin-top: 20px; */
+  width: 100%;
+  background: #fafbfc1f;
+  padding: 25px 30px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border-bottom: 2px solid hsl(0, 0%, 3%);
+  /* display:flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  padding: 40px;
+  /* background: transparent; */
+}
+
+.Container.input-box{
+  width: calc(100% /1-220px);
+}
+.input-box input{
+  height: 45px;
+  width: 100%;
+  background: #aaaaf3af;
+  outline: none;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  border: 1px solid;
+}
+.input-box details{
+  font-weight: 500;
+  margin-bottom: 5px;
+  
+  display: block;
+}
+.title{
+  margin-top: 40px;
+}
+.pdf{
+  margin-left: 70%;
+}
+
+.Add_flightTable {
+  margin: auto;
+  width: 70vw;
+  background-color: #244d61ec;
+  color: #eaebed;
+  margin-top: 35px;
+  border-radius: 5px;
+  padding: 15px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex_addflight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.side_label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 35px;
+  padding-bottom: 25px;
+  padding-left: 35px;
+}
+
+.flex_ip {
+  display: flex;
+  flex-direction: column;
+}

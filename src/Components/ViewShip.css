@@ -1,0 +1,94 @@
+.view_container,
+.Add_ship_form {
+  background-color: #fff;
+  /* background-image: url("../../public/Assets/background_flight.jpg"); */
+  /* background: linear-gradient(135deg, #243558, #9b59b6); */
+  background-image: url("./luxury.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  height: 100vh;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.header {
+  height: 80px;
+  width: 100vw;
+  background-color: #244d61;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 12%;
+}
+
+.logout_button {
+  background-color: #eaebed;
+  padding: 10px 25px;
+  margin-right: 55px;
+  border-radius: 5px;
+  color: #244d61;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.delete_button {
+  background-color: #eaebed;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #244d61;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.logout_button:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.view_heading {
+  background-color: rgb(255, 255, 255, 0.3);
+  color: #080808;
+  padding: 15px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.shipList_table {
+  margin: auto;
+}
+
+.shipTable {
+  margin: auto;
+  width: 70vw;
+  background-color: #8989ebec;
+  /* color: #eaebed; */
+  background: #aaaaf37e;
+  margin-top: 35px;
+  border-radius: 5px;
+  padding: 15px 12px;
+}
+
+.table_data {
+  padding: 10px 5px;
+}
+
+.table_heading {
+  padding-bottom: 25px;
+}
+
+.navbar_options {
+  display: flex;
+  align-items: center;
+}
+body{
+  display: flexbox;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #243558, #9b59b6);
+}
